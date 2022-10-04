@@ -1,0 +1,45 @@
+<template>
+  <div>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      :width="size"
+      :height="size"
+      viewBox="0 0 24 24"
+      fill="none"
+      
+      
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      class="feather feather-rotate-cw"
+    >
+      <polyline points="23 4 23 10 17 10"></polyline>
+      <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+    </svg>
+  </div>
+</template>
+<script>
+export default {
+  props: {
+    size: {
+      type: String,
+      default() {
+        return '24'
+      },
+    },
+    width: {
+      type: String,
+      default() {
+        return null
+      },
+    },
+    height: {
+      type: String,
+      default() {
+        return null
+      },
+    },
+  },
+}
+</script>
+
+
