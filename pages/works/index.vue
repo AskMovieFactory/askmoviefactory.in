@@ -1,26 +1,31 @@
 <template>
-    <div class="max-w-7xl mx-auto w-full">
-        <h1 class="mx-auto text-center text-4xl font-semibold uppercase">Our Works</h1>
-
-        <div class="grid grid-cols-1 lg:grid-cols-3 p-4 items-center">
+    <article class="w-full">
+        <ContentDoc v-slot="{ doc }">
             <div
-                v-for="work in Works"
-                :key="`work_${Works.findIndex((x) => x.title === work.title)}`"
-                class="mx-auto"
+                class="flex flex-col text-justify md:flex-row items-start max-w-7xl mx-auto md:justify-start space-y-8 gap-8 md:space-y-0 lg:space-x-8"
             >
-                <CardItem
-                    :name="work.title"
-                    :description="work.description"
-                    :link="`/works/${Works.findIndex(
-                        (x) => x.title === work.title
-                    )}`"
-                    :image="work.poster"
-                />
+                <article
+                class="prose order-2 prose-invert max-w-full lg:max-w-prose prose-code:before:content-none prose-code:after:content-none p-2 lg:px-4 bg-chaos-primary rounded-xl"
+                >
+                    <ContentRenderer :value="doc" />
+                </article>
             </div>
-        </div>
-    </div>
+        </ContentDoc>
+    </article>
 </template>
 
+<style lang="postcss">
+    /* Customize headers to remove default underline */
+    .prose h2 a {
+        @apply no-underline transition duration-500 ease-in-out block font-bold border-b border-neutral-600 dark:border-neutral-300;
+        &:hover {
+            @apply text-zinc-600 dark:text-ask-foreground;
+        }
+    }
+    .prose h3 a {
+        @apply font-semibold no-underline;
+    }
+</style>
 <script setup>
-    import Works from "@/data/Works";
+    
 </script>

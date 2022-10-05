@@ -13,7 +13,7 @@
                     :class="`block h-8 w-8 text-white stroke-2`"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
-                    stroke="white"
+                    stroke="#107d00"
                     viewBox="0 0 30 24"
                 >
                     <g>
@@ -50,9 +50,10 @@
             >
                 <ul :class="` flex-col items-center space-y-4 w-full mx-auto`">
                     <div v-for="navItem in nav" :key="navItem.key">
-                        <a
+                        <NuxtLink
                             :class="`relative group flex items-center cursor-pointer`"
-                            :href="navItem.action"
+                            :to="navItem.action"
+                            @click="toggleOff"
                         >
                             <li
                                 :class="`relative flex group items-center p-4 w-16 h-16 bg-black/40`"
@@ -64,7 +65,7 @@
                                         :class="`block h-8 w-8 stroke-white stroke-2`"
                                         xmlns="http://www.w3.org/2000/svg"
                                         fill="none"
-                                        stroke="white"
+                                        stroke="#107d00"
                                         viewBox="0 0 24 24"
                                         aria-hidden="true"
                                     >
@@ -82,7 +83,7 @@
                                     <MiscTag>{{ navItem.toolTip }}</MiscTag>
                                 </div>
                             </li>
-                        </a>
+                        </NuxtLink>
                     </div>
                 </ul>
             </div>
@@ -102,7 +103,7 @@
     const { nav } = defineProps(["nav"]);
 
     const toggleOff = () => {
-        toggleNav.value = true;
+        toggleNav.value = false;
     };
     const toggleOn = () => {
         toggleNav.value = true;

@@ -5,6 +5,9 @@ export default defineNuxtConfig({
       title: "Ask Movie Factory",
       titleTemplate: "%s | ASK",
       meta: [],
+      script: [
+        { src: "https://player.vimeo.com/api/player.js" },
+      ],
       link: [],
     },
   },
