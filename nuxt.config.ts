@@ -78,4 +78,8 @@ export default defineNuxtConfig({
       ],
     },
   },
+  schemaOrg: {
+    canonicalHost: "https://askmoviefactory.in",
+    position: "head",
+  }
 });
