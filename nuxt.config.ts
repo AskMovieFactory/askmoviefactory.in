@@ -4,11 +4,30 @@ export default defineNuxtConfig({
     head: {
       title: "Ask Movie Factory",
       titleTemplate: "%s | ASK",
-      meta: [],
+      meta: [
+        { charset: "utf-8" },
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
+        {
+          name: "description",
+          hid: "description",
+          content:
+            "ASK Movie Factory is an Indian film production company founded in 2019. We take on various works including Movie production, Web series production, Advertisement production, Dubbing studio...",
+        },
+        {
+          name: "og:type",
+          hid: "og:type",
+          content: "website",
+        },
+        {
+          name: "og:image",
+          hid: "og:image",
+          content: "/icon.png",
+        },
+      ],
       script: [
         { src: "https://player.vimeo.com/api/player.js" },
       ],
-      link: [],
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     },
   },
   modules: [
@@ -81,5 +100,5 @@ export default defineNuxtConfig({
   schemaOrg: {
     canonicalHost: "https://askmoviefactory.in",
     position: "head",
-  }
+  },
 });
