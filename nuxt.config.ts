@@ -72,6 +72,13 @@ export default defineNuxtConfig({
           },
           fontFamily: {
             montserrat: ["Montserrat", "sans-serif"],
+            shadow: ["Shadows Into Light", "cursive"],
+            berkshire: ["Berkshire Swash", "cursive"],
+            schoolbell: ["Schoolbell", "cursive"],
+            mansalva: ["Mansalva", "cursive"],
+            sedgwick: ["Sedgwick Ave Display", "cursive"],
+            indie: ["Indie Flower", "cursive"],
+            amatic: ["Amatic SC", "cursive"],
           },
           translate: {
             "130": "50rem",
