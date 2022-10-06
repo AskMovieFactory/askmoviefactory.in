@@ -8,7 +8,7 @@
             </h1>
         </div>
         <div class = "max-w-prose prose prose-invert mx-auto text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lectus sem, mattis sed leo quis, pellentesque aliquet quam. Curabitur bibendum augue sed ipsum posuere pellentesque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam erat volutpat. Phasellus tempus sem non est vehicula, scelerisque mattis velit feugiat. Praesent cursus, mauris dictum pharetra gravida, urna dui lobortis libero, vitae malesuada dolor tortor eu augue. Nam dapibus sapien lorem, vel porttitor nisl malesuada sed.
+            <!---->
         </div>
         <div class="py-2 flex flex-row items-center justify-center">
             <select

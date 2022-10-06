@@ -158,7 +158,7 @@
             );
         if (award)
             conditions.push(
-                (x) => getAward(x.award) === award[1].toLowerCase()
+                (x) => getAward(x.award).toLowerCase() === award[1].toLowerCase()
             );
         if (winner)
             conditions.push(
