@@ -7,7 +7,7 @@ export default defineNuxtConfig({
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
-        { name: "theme-color", hid: "themeColor", content: "#107d00"},
+        { name: "theme-color", hid: "themeColor", content: "#107d00" },
         {
           name: "description",
           hid: "description",
@@ -108,5 +108,10 @@ export default defineNuxtConfig({
   schemaOrg: {
     canonicalHost: "https://askmoviefactory.in",
     position: "head",
+  },
+  image: {
+    domains: ["askmoviefactory.in"],
+    provider: "twicpics",
+    twicpics: { baseURL: "https://askmoviefactory.twic.pics/" },
   },
 });

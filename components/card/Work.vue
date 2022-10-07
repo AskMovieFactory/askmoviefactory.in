@@ -5,8 +5,9 @@
         >
             <div class="md:flex lg:p-4">
                 <div class="md:flex-shrink-0">
-                    <img
+                    <NuxtImg
                         :src="image"
+                        provider="twicpics"
                         class="w-full w-full lg:w-96 object-contain"
                         :alt="title"
                     />

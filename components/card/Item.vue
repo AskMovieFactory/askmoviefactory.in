@@ -1,10 +1,15 @@
 <template>
-    <NuxtLink class="block p-4 transition duration-500 ease-in-out transform hover:scale-110 hover:-translate-y-1" :to="link">
+    <NuxtLink
+        class="block p-4 transition duration-500 ease-in-out transform hover:scale-110 hover:-translate-y-1"
+        :to="link"
+    >
         <div class="max-w-md rounded-xl w-full p-4 bg-zinc-800 shadow-xl">
             <div class="flex flex-col items-stretch space-y-8">
                 <div class="shrink-0 flex justify-center">
-                    <img
+                    <NuxtImg
                         :src="image"
+                        provider="twicpics"
+                        :alt="name"
                         class="object-cover h-full w-full lg:w-72 lg:h-72"
                     />
                 </div>
@@ -16,7 +21,7 @@
                 </div>
             </div>
         </div>
-      </NuxtLink>
+    </NuxtLink>
 </template>
 <script setup lang="ts">
     const { name, category, image, link } = defineProps<{
