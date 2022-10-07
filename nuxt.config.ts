@@ -2,8 +2,8 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: "Ask Movie Factory",
-      titleTemplate: "%s | ASK",
+      title: "ASK Movie Factory",
+      titleTemplate: "%s | ASK Movie Factory",
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
