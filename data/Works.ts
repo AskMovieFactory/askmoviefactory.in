@@ -159,7 +159,7 @@ export default [
         {title: "Locations", name: "'Aura' Uma"},
     ],
     trailer: "https://player.vimeo.com/video/755227143?h=68ea5ce42b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-    description: "A day with Kumaresan. He lives with his mother and infant sister. His daily food depends on the lunch provided by government at school. He has his own dreams. Happiness lies on small things.",
+    description: "Kumaresan lives with his mother and his little sister. His family depends on the free afternoon meal provided by the government of Tamil Nadu for poor students at school. He sacrifices his meal for his mother and his little sister. No matter what happens, he always remains happy. He has his own dreams. One such dream is his desire to become a collector (IAS Officer). The film says happiness lies in small things. Beyond poverty and struggles, there exists HOPE which gives one happiness and confidence.",
     poster: "/img/posters/kumaresan_collector.webp",
     awards: [
       {
