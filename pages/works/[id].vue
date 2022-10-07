@@ -116,6 +116,18 @@
     if (!Work) navigateTo("/works");
     const searchQuery = ref("");
 
+    useHead({
+        title: `${Work.title} (${Work.year})`,
+        meta: [
+            {
+                name: "description", hid: "description", content: Work.description
+            },
+            {
+                name: "og:image", hid: "og:image", content: Work.poster
+            }
+        ]
+    })
+
     function getAward(t: AwardType) {
         switch (t) {
             case AwardType.FINALIST:

@@ -27,5 +27,7 @@
     }
 </style>
 <script setup>
-    
+    definePageMeta({
+        title: "Works"
+    })
 </script>
