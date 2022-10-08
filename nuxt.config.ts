@@ -12,7 +12,7 @@ export default defineNuxtConfig({
           name: "description",
           hid: "description",
           content:
-            "ASK Movie Factory is an Indian film production company founded in 2019. We take on various works including Movie production, Web series production, Advertisement production, Dubbing studio...",
+            "ASK Movie Factory is an Indian film production company founded in 2019. We take on various works in the field of Movie production.",
         },
         {
           name: "og:type",
