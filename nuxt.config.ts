@@ -35,6 +35,7 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@nuxt/image-edge",
     "@nuxtjs/tailwindcss",
+    '@nuxtjs/robots',
     "@pinia/nuxt",
     "nuxt-schema-org",
   ],

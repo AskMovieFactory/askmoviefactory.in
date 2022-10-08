@@ -3,6 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@nuxt/content': ^2.1.1
   '@nuxt/image-edge': ^1.0.0-27719579.87dcdf2
+  '@nuxtjs/robots': ^2.5.0
   '@nuxtjs/tailwindcss': ^5.3.3
   '@pinia/nuxt': ^0.4.2
   '@tailwindcss/typography': ^0.5.7
@@ -13,6 +14,7 @@ specifiers:
 devDependencies:
   '@nuxt/content': 2.1.1
   '@nuxt/image-edge': 1.0.0-27719579.87dcdf2
+  '@nuxtjs/robots': 2.5.0
   '@nuxtjs/tailwindcss': 5.3.3
   '@pinia/nuxt': 0.4.2
   '@tailwindcss/typography': 0.5.7
@@ -722,6 +724,10 @@ packages:
       - typescript
       - vls
       - vti
+    dev: true
+
+  /@nuxtjs/robots/2.5.0:
+    resolution: {integrity: sha512-z1F3HXb05NiZga8Cuq6k5bbowfJOScPtbSOakip0nege+1aI9pGoajzap8eR5s1qwLXAk9Ts+NcgetoUn5lwrQ==}
     dev: true
 
   /@nuxtjs/tailwindcss/5.3.3:
