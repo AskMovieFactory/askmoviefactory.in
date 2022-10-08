@@ -1,11 +1,11 @@
 <template>
     <div class="max-w-7xl mx-auto w-full space-y-8 px-2">
         <div>
-            <h1 class="text-6xl font-bold uppercase mx-auto text-center font-shadow">
+            <h2 class="text-6xl font-bold uppercase mx-auto text-center font-shadow">
                 <span class="text-white">A</span
                 ><span class="text-ask-foreground">S</span
                 ><span class="text-zinc-700">K</span> Movie Factory
-            </h1>
+            </h2>
         </div>
         <div class = "max-w-prose prose prose-invert mx-auto text-justify">
             <!---->

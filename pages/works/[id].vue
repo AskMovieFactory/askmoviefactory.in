@@ -7,9 +7,9 @@
         />
 
         <div class="flex flex-col items-center space-y-4">
-            <h1 class="text-2xl font-bold uppercase text-ask-foreground">
+            <h2 class="text-2xl font-bold uppercase text-ask-foreground">
                 Cast & Crew
-            </h1>
+            </h2>
             <div class="w-full">
                 <table
                     class="table-auto gap-4 border-collapse w-full text-xs lg:text-base"
@@ -32,9 +32,9 @@
             </div>
         </div>
         <div v-if="Work.trailer" class="flex flex-col items-center space-y-4">
-            <h1 class="text-2xl font-bold uppercase text-ask-foreground">
+            <h2 class="text-2xl font-bold uppercase text-ask-foreground">
                 Trailer
-            </h1>
+            </h2>
             <div class="w-full">
                 <iframe
                     :src="Work.trailer"
@@ -49,9 +49,9 @@
         </div>
 
         <div class="flex flex-col items-center space-y-4">
-            <h1 class="text-2xl font-bold uppercase text-ask-foreground">
+            <h2 class="text-2xl font-bold uppercase text-ask-foreground">
                 Awards
-            </h1>
+            </h2>
             <input
                 type="text"
                 class="h-12 bg-zinc-800 py-2 px-4 w-full lg:w-96"
